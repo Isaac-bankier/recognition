@@ -3,7 +3,7 @@
 #install dependencies for debian and arch based systems.
 #Recommended system to use is arch.
 sudo pacman -S imagemagick || sudo apt-get imagemagick
-sudo apt-get install python-pip python-dev || sudo pacman -S python-pip python-dev
+sudo apt-get install python3-pip python3-dev python3 || sudo pacman -S python3-pip python3-dev python3
 sudo apt-get install tesseract-ocr || sudo pacman tesseract-ocr
 
 #install dependencies through pip
