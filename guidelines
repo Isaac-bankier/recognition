@@ -1,0 +1,26 @@
+a)
+    Versioning should be done in the following:
+        1)
+            Code should first be commited to the alpha branch.
+        2)
+            Code should, after no more features are to be added, moved to the beta branch.
+        3)
+            After there are no bugs found in the beta code for two weeks the code is pushed to the master branch.
+            
+b)
+    Version numnbers should be constructed in the format of v.r.i.b:
+        v)
+            Is the version shown to the general public. Always a major release and pushed to master.
+        r)
+            Is made public. Indicates some new features but mostly bug fixes. Should be pushed to master.
+        i)
+            Is the stable but are not pushed to master and is beta sofware.
+        b)
+            Is unstable. pushed to alpha.
+
+c)
+    To have code pushed to beta the code must:
+       1)
+          All code should be run through a linter for the progamming language and recieves no errors.
+       2)
+          All code should be run through a styler.
