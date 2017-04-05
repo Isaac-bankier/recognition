@@ -1,7 +1,7 @@
 #!/bin/bash
 
 while [[ true ]]; do
-  ./main.#!/bin/sh
+  ./main.sh
   mv --backup=numbered image.png image.png
   sleep 5
 done
