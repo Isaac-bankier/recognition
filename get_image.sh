@@ -1,2 +1,2 @@
 #!/bin/bash
-fswebcam -F 10 image.png
+fswebcam --device /dev/video1 -F 10 image.png
