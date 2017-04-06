@@ -1,1 +1,1 @@
-convert image.png -crop 102x73+76+130 image.png
+convert image.png -crop 239x137+16+54 image.png

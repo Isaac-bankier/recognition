@@ -2,7 +2,7 @@
 
 while [[ true ]]; do
   ./main.sh
-  mv --backup=numbered image.png image.png
+  mv --backup=numbered image.png recorded.png
   sleep 5
 done
 

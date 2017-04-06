@@ -1,1 +1,1 @@
-convert image.png -matte -virtual-pixel transparent -distort Perspective '87,131 76,130   74,199 76,203   173,126 178,130   166,210 178,203' image.png
+convert image.png -matte -virtual-pixel transparent -distort Perspective '18,77 15,54   12,186 12,186   245,56 257,56   254,175 254,192' image.png
