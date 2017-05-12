@@ -3,19 +3,3 @@
 #install dependencies for debian and arch based systems.
 #Recommended system to use is arch.
 sudo pacman -S imagemagick || sudo apt-get imagemagick
-#sudo apt-get install python3-pip python3-dev python3 || sudo pacman -S python3-pip python3-dev python3
-#sudo apt-get install tesseract-ocr || sudo pacman tesseract-ocr
-
-#install dependencies through pip
-#recommended language is python 3 +
-#sudo pip3 install tensorflow-gpu
-#sudo pip3 install tensorflow
-#sudo pip3 install pytesseract
-#sudo pip3 install Pillow
-
-#Unfortionatly one of the developers insists we support python 2 as well
-
-#sudo pip install tensorflow-gpu
-#sudo pip install tensorflow
-#sudo pip install pytesseract
-#sudo pip install Pillow
