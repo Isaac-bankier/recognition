@@ -31,12 +31,12 @@ class sigmoid_n(object):
         return output
 
     def activation(self, input):
-        return 1/1-math.exp(-input)
+        return 1/(1+math.exp(-input))
 
 class network(object):
     def __init__(self, shape):
         self.network=[]
-        self.n_inputs=list(map(int, list("0"*shape[0])))
+        self.n_inputs=shape[0]
         h_shape=shape[1:]
         last=shape[0]
         for i in h_shape:
