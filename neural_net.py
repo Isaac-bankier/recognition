@@ -1,8 +1,13 @@
 import math
+import random
 
 class sigmoid_n(object):
     def __init__(self, size):
-        self.weights=list(map(int, list("1"*size)))
+        #generate the weights
+        random.seed(1)
+        self.weights=[]
+        for i in range(0, size):
+            self.weights.append(random.gauss(0, 0.5))
         self.bias = 0
 
     def feed_forward(self, inputs):
