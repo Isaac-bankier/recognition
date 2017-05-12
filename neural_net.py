@@ -2,9 +2,9 @@ import math
 import random
 
 class sigmoid_n(object):
-    def __init__(self, size):
+    def __init__(self, size, seed=1):
         #generate the weights
-        random.seed(1)
+        random.seed(seed)
         self.weights=[]
         for i in range(0, size):
             self.weights.append(random.gauss(0, 0.5))
