@@ -31,7 +31,7 @@ class sigmoid_n(object):
         return output
 
     def activation(self, input):
-        return 1/(1+math.exp(-input))
+        return 1.0/(1.0+math.exp(-input))
 
 class network(object):
     def __init__(self, shape):
@@ -57,8 +57,9 @@ class network(object):
             inputs=f_inputs
         return inputs
 
-    def train(self, data):
-        pass
-        
+    def train(self, data, epochs, rate, batch_size):
+        for epoch in range(0, epochs):
+            
+
 n = sigmoid_n(3)
 print(n.feed_forward([1,1,1]))
